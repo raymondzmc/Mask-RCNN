@@ -2,7 +2,8 @@
 A PyTorch implementation of the architecture of Mask RCNN, serves as an introduction to working with PyTorch
 
 ## For Evaluation of Fashion Photographies
-Run python evaluate.py to save the results as .pth files
+There should be two directories images/ and results/ for storing the data and network output respectively.
+Run python evaluate.py to save the output as .pth files
 
 ## Decription of folders 
 1) model.py includes the models of ResNet and FPN which were already implemented by the authors of the papers and reproduced in this       implementation
